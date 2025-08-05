@@ -1,0 +1,25 @@
+# Request body for adding a new class
+
+{
+    "name":"Morning Yoga",
+    "instructor":"Paul winson",
+    "datetime":"10-08-2025 06:00",
+    "available_slots":20
+}
+
+--------------------------------------------------------------
+
+# Request body for booking a new class
+
+{
+    "class_id":"1",
+    "client_name":"Jack nir",
+    "client_email":"jack@gmail.com"
+}
+
+--------------------------------------------------------------
+
+# Query parameter for viewing email based bookings.
+
+email=jack@gmail.com
+
